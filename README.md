@@ -1,0 +1,5 @@
+# Working with Web APIs and JSON Files (Movie Blockbusters Data)
+
+Loading data from a CSV or an Excel file into a pandas DataFrame is fairly straightforward. However, data stored in JSON format usually requires additional steps before producing a usable DataFrame. Because of how data is organised in a JSON file, we have to normalise or flatten some columns to be able to access and manipulate the data as needed.
+
+This three-step project is focused on working with data stored in JSON format. We start by opening and flattening a local file containing data on blockbuster movies. In the following step, we connect to [The Movie Database API](https://www.themoviedb.org) and pull additional data on a movie of choice. Here we also pull data based on specific dates. Finally, we gather all the available data from the API on the movies in the original dataset and store it in local JSON and CSV files.
